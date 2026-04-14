@@ -1524,6 +1524,19 @@
                   ]
                 }
               ]
+            },
+            {
+              "name": "moveset",
+              "className": "Folder",
+              "children": [
+                {
+                  "name": "gojo",
+                  "className": "ModuleScript",
+                  "filePaths": [
+                    "src/shared\\moveset\\gojo.luau"
+                  ]
+                }
+              ]
             }
           ]
         }
@@ -1677,6 +1690,13 @@
                       "className": "ModuleScript",
                       "filePaths": [
                         "src/server\\core\\system\\respawn.luau"
+                      ]
+                    },
+                    {
+                      "name": "animate",
+                      "className": "ModuleScript",
+                      "filePaths": [
+                        "src/server\\core\\system\\animate.luau"
                       ]
                     }
                   ]

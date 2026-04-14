@@ -22,6 +22,8 @@ return function(world: jecs.World)
 			if not player_entity or not character_entity then
 				continue
 			end
+
+			print(player_entity)
 			
 			local query_abilities = world
 				:query(ct.Ability, ct.InputAction)

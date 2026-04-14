@@ -33,9 +33,7 @@ local function extract_animation_ids(ability: any): { string }
 end
 
 local function require_movesets()
-	local folder = ReplicatedStorage:FindFirstChild("movesets")
-	if not folder then return end
-
+	local folder = ReplicatedStorage.Shared.moveset
 	local modules = folder:GetChildren()
 	local animation_instances = {}
 

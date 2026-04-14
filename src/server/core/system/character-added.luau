@@ -26,20 +26,24 @@ local function create_character_entity(world: jecs.World, character: Model): jec
 		ct.Character,
 		ct.Humanoid,
 		ct.HumanoidRootPart,
+		ct.Walkspeed,
+		ct.Jumppower,
 		ct.Alive,
 		
 		pair(reliable, ct.Renderable),
 		pair(reliable, ct.Character),
 		pair(reliable, ct.Humanoid),
 		pair(reliable, ct.HumanoidRootPart),
+		pair(reliable, ct.Walkspeed),
+		pair(reliable, ct.Jumppower),
 		pair(reliable, ct.Alive),
-
+		
 		replecs.Networked,
 	}
-	
+
 	local entity = ref(character)
 	
-	jecs.bulk_insert(world, entity, components, { character, character, humanoid, humanoidrootpart })
+	jecs.bulk_insert(world, entity, components, { character, character, humanoid, humanoidrootpart, 0, 0 })
 	replicator:set_custom(entity, ct.Character)
 
 	character.Parent = workspace.entity

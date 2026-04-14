@@ -86,9 +86,7 @@ local function fetch_animation_data(id: string): AnimationData?
 end
 
 local function require_movesets()
-	local moveset_folder = ReplicatedStorage:FindFirstChild("movesets")
-	if not moveset_folder then return end
-
+	local moveset_folder = ReplicatedStorage.Shared.moveset
 	local modules = moveset_folder:GetChildren()
 	local pending_animations = 0
 

@@ -21,6 +21,8 @@ local ct = {
 	Health = 				jecs.component() :: jecs.Id<{ current: number, max: number }>,
 	Humanoid = 				jecs.component() :: jecs.Id<Humanoid>,
 	HumanoidRootPart = 		jecs.component() :: jecs.Id<BasePart>,
+	Walkspeed = 			jecs.component() :: jecs.Id<number>,
+	Jumppower = 			jecs.component() :: jecs.Id<number>,
 	
 	-- [[ MOVESET & ABILITY ]] --
 	AbilityEvents = 		jecs.component() :: jecs.Id<{ types.AnimationEvent }>,
