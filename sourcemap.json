@@ -1,0 +1,1799 @@
+{
+  "name": "Combat Framework",
+  "className": "DataModel",
+  "filePaths": [
+    "default.project.json"
+  ],
+  "children": [
+    {
+      "name": "ReplicatedStorage",
+      "className": "ReplicatedStorage",
+      "children": [
+        {
+          "name": "Packages",
+          "className": "Folder",
+          "children": [
+            {
+              "name": "_Index",
+              "className": "Folder",
+              "children": [
+                {
+                  "name": "alicesaidhi_jabby@0.2.3",
+                  "className": "Folder",
+                  "children": [
+                    {
+                      "name": "jabby",
+                      "className": "ModuleScript",
+                      "filePaths": [
+                        "Packages\\_Index\\alicesaidhi_jabby@0.2.3\\jabby\\src\\init.luau",
+                        "Packages\\_Index\\alicesaidhi_jabby@0.2.3\\jabby\\default.project.json"
+                      ],
+                      "children": [
+                        {
+                          "name": "client",
+                          "className": "ModuleScript",
+                          "filePaths": [
+                            "Packages\\_Index\\alicesaidhi_jabby@0.2.3\\jabby\\src\\client\\init.luau"
+                          ],
+                          "children": [
+                            {
+                              "name": "apps",
+                              "className": "Folder",
+                              "children": [
+                                {
+                                  "name": "entity",
+                                  "className": "ModuleScript",
+                                  "filePaths": [
+                                    "Packages\\_Index\\alicesaidhi_jabby@0.2.3\\jabby\\src\\client\\apps\\entity\\init.luau"
+                                  ],
+                                  "children": [
+                                    {
+                                      "name": "add_component",
+                                      "className": "ModuleScript",
+                                      "filePaths": [
+                                        "Packages\\_Index\\alicesaidhi_jabby@0.2.3\\jabby\\src\\client\\apps\\entity\\add_component.luau"
+                                      ]
+                                    },
+                                    {
+                                      "name": "editor",
+                                      "className": "ModuleScript",
+                                      "filePaths": [
+                                        "Packages\\_Index\\alicesaidhi_jabby@0.2.3\\jabby\\src\\client\\apps\\entity\\editor.luau"
+                                      ]
+                                    },
+                                    {
+                                      "name": "systems",
+                                      "className": "Folder",
+                                      "children": [
+                                        {
+                                          "name": "obtain_entity_data",
+                                          "className": "ModuleScript",
+                                          "filePaths": [
+                                            "Packages\\_Index\\alicesaidhi_jabby@0.2.3\\jabby\\src\\client\\apps\\entity\\systems\\obtain_entity_data.luau"
+                                          ]
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "name": "widget",
+                                      "className": "ModuleScript",
+                                      "filePaths": [
+                                        "Packages\\_Index\\alicesaidhi_jabby@0.2.3\\jabby\\src\\client\\apps\\entity\\widget.luau"
+                                      ]
+                                    }
+                                  ]
+                                },
+                                {
+                                  "name": "home",
+                                  "className": "ModuleScript",
+                                  "filePaths": [
+                                    "Packages\\_Index\\alicesaidhi_jabby@0.2.3\\jabby\\src\\client\\apps\\home\\init.luau"
+                                  ],
+                                  "children": [
+                                    {
+                                      "name": "systems",
+                                      "className": "Folder",
+                                      "children": [
+                                        {
+                                          "name": "get_core_data",
+                                          "className": "ModuleScript",
+                                          "filePaths": [
+                                            "Packages\\_Index\\alicesaidhi_jabby@0.2.3\\jabby\\src\\client\\apps\\home\\systems\\get_core_data.luau"
+                                          ]
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "name": "widget",
+                                      "className": "ModuleScript",
+                                      "filePaths": [
+                                        "Packages\\_Index\\alicesaidhi_jabby@0.2.3\\jabby\\src\\client\\apps\\home\\widget.luau"
+                                      ]
+                                    }
+                                  ]
+                                },
+                                {
+                                  "name": "overview_scheduler",
+                                  "className": "ModuleScript",
+                                  "filePaths": [
+                                    "Packages\\_Index\\alicesaidhi_jabby@0.2.3\\jabby\\src\\client\\apps\\overview_scheduler\\init.luau"
+                                  ],
+                                  "children": [
+                                    {
+                                      "name": "stack_bar",
+                                      "className": "ModuleScript",
+                                      "filePaths": [
+                                        "Packages\\_Index\\alicesaidhi_jabby@0.2.3\\jabby\\src\\client\\apps\\overview_scheduler\\stack_bar.luau"
+                                      ]
+                                    },
+                                    {
+                                      "name": "systems",
+                                      "className": "Folder",
+                                      "children": [
+                                        {
+                                          "name": "get_scheduler_data",
+                                          "className": "ModuleScript",
+                                          "filePaths": [
+                                            "Packages\\_Index\\alicesaidhi_jabby@0.2.3\\jabby\\src\\client\\apps\\overview_scheduler\\systems\\get_scheduler_data.luau"
+                                          ]
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "name": "widget",
+                                      "className": "ModuleScript",
+                                      "filePaths": [
+                                        "Packages\\_Index\\alicesaidhi_jabby@0.2.3\\jabby\\src\\client\\apps\\overview_scheduler\\widget.luau"
+                                      ]
+                                    }
+                                  ]
+                                },
+                                {
+                                  "name": "registry",
+                                  "className": "ModuleScript",
+                                  "filePaths": [
+                                    "Packages\\_Index\\alicesaidhi_jabby@0.2.3\\jabby\\src\\client\\apps\\registry\\init.luau"
+                                  ],
+                                  "children": [
+                                    {
+                                      "name": "systems",
+                                      "className": "Folder",
+                                      "children": [
+                                        {
+                                          "name": "highlight_workspace_entity",
+                                          "className": "ModuleScript",
+                                          "filePaths": [
+                                            "Packages\\_Index\\alicesaidhi_jabby@0.2.3\\jabby\\src\\client\\apps\\registry\\systems\\highlight_workspace_entity.luau"
+                                          ]
+                                        },
+                                        {
+                                          "name": "obtain_query_data",
+                                          "className": "ModuleScript",
+                                          "filePaths": [
+                                            "Packages\\_Index\\alicesaidhi_jabby@0.2.3\\jabby\\src\\client\\apps\\registry\\systems\\obtain_query_data.luau"
+                                          ]
+                                        },
+                                        {
+                                          "name": "send_workspace_entity",
+                                          "className": "ModuleScript",
+                                          "filePaths": [
+                                            "Packages\\_Index\\alicesaidhi_jabby@0.2.3\\jabby\\src\\client\\apps\\registry\\systems\\send_workspace_entity.luau"
+                                          ]
+                                        },
+                                        {
+                                          "name": "validate_query",
+                                          "className": "ModuleScript",
+                                          "filePaths": [
+                                            "Packages\\_Index\\alicesaidhi_jabby@0.2.3\\jabby\\src\\client\\apps\\registry\\systems\\validate_query.luau"
+                                          ]
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "name": "widget",
+                                      "className": "ModuleScript",
+                                      "filePaths": [
+                                        "Packages\\_Index\\alicesaidhi_jabby@0.2.3\\jabby\\src\\client\\apps\\registry\\widget.luau"
+                                      ]
+                                    }
+                                  ]
+                                },
+                                {
+                                  "name": "system",
+                                  "className": "ModuleScript",
+                                  "filePaths": [
+                                    "Packages\\_Index\\alicesaidhi_jabby@0.2.3\\jabby\\src\\client\\apps\\system\\init.luau"
+                                  ],
+                                  "children": [
+                                    {
+                                      "name": "systems",
+                                      "className": "Folder",
+                                      "children": [
+                                        {
+                                          "name": "replicate",
+                                          "className": "ModuleScript",
+                                          "filePaths": [
+                                            "Packages\\_Index\\alicesaidhi_jabby@0.2.3\\jabby\\src\\client\\apps\\system\\systems\\replicate.luau"
+                                          ]
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "name": "watch_tracker",
+                                      "className": "ModuleScript",
+                                      "filePaths": [
+                                        "Packages\\_Index\\alicesaidhi_jabby@0.2.3\\jabby\\src\\client\\apps\\system\\watch_tracker.luau"
+                                      ]
+                                    },
+                                    {
+                                      "name": "widget",
+                                      "className": "ModuleScript",
+                                      "filePaths": [
+                                        "Packages\\_Index\\alicesaidhi_jabby@0.2.3\\jabby\\src\\client\\apps\\system\\widget.luau"
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "name": "components",
+                              "className": "Folder",
+                              "children": [
+                                {
+                                  "name": "tooltip",
+                                  "className": "ModuleScript",
+                                  "filePaths": [
+                                    "Packages\\_Index\\alicesaidhi_jabby@0.2.3\\jabby\\src\\client\\components\\tooltip.luau"
+                                  ]
+                                },
+                                {
+                                  "name": "virtualscroller_horizontal",
+                                  "className": "ModuleScript",
+                                  "filePaths": [
+                                    "Packages\\_Index\\alicesaidhi_jabby@0.2.3\\jabby\\src\\client\\components\\virtualscroller_horizontal.luau"
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "name": "spawn_app",
+                              "className": "ModuleScript",
+                              "filePaths": [
+                                "Packages\\_Index\\alicesaidhi_jabby@0.2.3\\jabby\\src\\client\\spawn_app.luau"
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "name": "modules",
+                          "className": "Folder",
+                          "children": [
+                            {
+                              "name": "average",
+                              "className": "ModuleScript",
+                              "filePaths": [
+                                "Packages\\_Index\\alicesaidhi_jabby@0.2.3\\jabby\\src\\modules\\average.luau"
+                              ]
+                            },
+                            {
+                              "name": "convert_units",
+                              "className": "ModuleScript",
+                              "filePaths": [
+                                "Packages\\_Index\\alicesaidhi_jabby@0.2.3\\jabby\\src\\modules\\convert_units.luau"
+                              ]
+                            },
+                            {
+                              "name": "hash_connector",
+                              "className": "ModuleScript",
+                              "filePaths": [
+                                "Packages\\_Index\\alicesaidhi_jabby@0.2.3\\jabby\\src\\modules\\hash_connector.luau"
+                              ]
+                            },
+                            {
+                              "name": "lon",
+                              "className": "ModuleScript",
+                              "filePaths": [
+                                "Packages\\_Index\\alicesaidhi_jabby@0.2.3\\jabby\\src\\modules\\lon.luau"
+                              ]
+                            },
+                            {
+                              "name": "loop",
+                              "className": "ModuleScript",
+                              "filePaths": [
+                                "Packages\\_Index\\alicesaidhi_jabby@0.2.3\\jabby\\src\\modules\\loop.luau"
+                              ]
+                            },
+                            {
+                              "name": "net",
+                              "className": "ModuleScript",
+                              "filePaths": [
+                                "Packages\\_Index\\alicesaidhi_jabby@0.2.3\\jabby\\src\\modules\\net.luau"
+                              ]
+                            },
+                            {
+                              "name": "queue",
+                              "className": "ModuleScript",
+                              "filePaths": [
+                                "Packages\\_Index\\alicesaidhi_jabby@0.2.3\\jabby\\src\\modules\\queue.luau"
+                              ]
+                            },
+                            {
+                              "name": "remotes",
+                              "className": "ModuleScript",
+                              "filePaths": [
+                                "Packages\\_Index\\alicesaidhi_jabby@0.2.3\\jabby\\src\\modules\\remotes.luau"
+                              ]
+                            },
+                            {
+                              "name": "reverse_connector",
+                              "className": "ModuleScript",
+                              "filePaths": [
+                                "Packages\\_Index\\alicesaidhi_jabby@0.2.3\\jabby\\src\\modules\\reverse_connector.luau"
+                              ]
+                            },
+                            {
+                              "name": "signal",
+                              "className": "ModuleScript",
+                              "filePaths": [
+                                "Packages\\_Index\\alicesaidhi_jabby@0.2.3\\jabby\\src\\modules\\signal.luau"
+                              ]
+                            },
+                            {
+                              "name": "traffic_check",
+                              "className": "ModuleScript",
+                              "filePaths": [
+                                "Packages\\_Index\\alicesaidhi_jabby@0.2.3\\jabby\\src\\modules\\traffic_check.luau"
+                              ]
+                            },
+                            {
+                              "name": "types",
+                              "className": "ModuleScript",
+                              "filePaths": [
+                                "Packages\\_Index\\alicesaidhi_jabby@0.2.3\\jabby\\src\\modules\\types.luau"
+                              ]
+                            },
+                            {
+                              "name": "videx",
+                              "className": "ModuleScript",
+                              "filePaths": [
+                                "Packages\\_Index\\alicesaidhi_jabby@0.2.3\\jabby\\src\\modules\\videx.luau"
+                              ]
+                            },
+                            {
+                              "name": "vm_id",
+                              "className": "ModuleScript",
+                              "filePaths": [
+                                "Packages\\_Index\\alicesaidhi_jabby@0.2.3\\jabby\\src\\modules\\vm_id.luau"
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "name": "server",
+                          "className": "ModuleScript",
+                          "filePaths": [
+                            "Packages\\_Index\\alicesaidhi_jabby@0.2.3\\jabby\\src\\server\\init.luau"
+                          ],
+                          "children": [
+                            {
+                              "name": "public",
+                              "className": "ModuleScript",
+                              "filePaths": [
+                                "Packages\\_Index\\alicesaidhi_jabby@0.2.3\\jabby\\src\\server\\public.luau"
+                              ]
+                            },
+                            {
+                              "name": "query_parser",
+                              "className": "ModuleScript",
+                              "filePaths": [
+                                "Packages\\_Index\\alicesaidhi_jabby@0.2.3\\jabby\\src\\server\\query_parser.luau"
+                              ]
+                            },
+                            {
+                              "name": "scheduler",
+                              "className": "ModuleScript",
+                              "filePaths": [
+                                "Packages\\_Index\\alicesaidhi_jabby@0.2.3\\jabby\\src\\server\\scheduler.luau"
+                              ]
+                            },
+                            {
+                              "name": "systems",
+                              "className": "Folder",
+                              "children": [
+                                {
+                                  "name": "entity",
+                                  "className": "ModuleScript",
+                                  "filePaths": [
+                                    "Packages\\_Index\\alicesaidhi_jabby@0.2.3\\jabby\\src\\server\\systems\\entity.luau"
+                                  ]
+                                },
+                                {
+                                  "name": "mouse_pointer",
+                                  "className": "ModuleScript",
+                                  "filePaths": [
+                                    "Packages\\_Index\\alicesaidhi_jabby@0.2.3\\jabby\\src\\server\\systems\\mouse_pointer.luau"
+                                  ]
+                                },
+                                {
+                                  "name": "ping",
+                                  "className": "ModuleScript",
+                                  "filePaths": [
+                                    "Packages\\_Index\\alicesaidhi_jabby@0.2.3\\jabby\\src\\server\\systems\\ping.luau"
+                                  ]
+                                },
+                                {
+                                  "name": "replicate_core",
+                                  "className": "ModuleScript",
+                                  "filePaths": [
+                                    "Packages\\_Index\\alicesaidhi_jabby@0.2.3\\jabby\\src\\server\\systems\\replicate_core.luau"
+                                  ]
+                                },
+                                {
+                                  "name": "replicate_registry",
+                                  "className": "ModuleScript",
+                                  "filePaths": [
+                                    "Packages\\_Index\\alicesaidhi_jabby@0.2.3\\jabby\\src\\server\\systems\\replicate_registry.luau"
+                                  ]
+                                },
+                                {
+                                  "name": "replicate_scheduler",
+                                  "className": "ModuleScript",
+                                  "filePaths": [
+                                    "Packages\\_Index\\alicesaidhi_jabby@0.2.3\\jabby\\src\\server\\systems\\replicate_scheduler.luau"
+                                  ]
+                                },
+                                {
+                                  "name": "replicate_system_watch",
+                                  "className": "ModuleScript",
+                                  "filePaths": [
+                                    "Packages\\_Index\\alicesaidhi_jabby@0.2.3\\jabby\\src\\server\\systems\\replicate_system_watch.luau"
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "name": "watch",
+                              "className": "ModuleScript",
+                              "filePaths": [
+                                "Packages\\_Index\\alicesaidhi_jabby@0.2.3\\jabby\\src\\server\\watch.luau"
+                              ]
+                            },
+                            {
+                              "name": "world_hook",
+                              "className": "ModuleScript",
+                              "filePaths": [
+                                "Packages\\_Index\\alicesaidhi_jabby@0.2.3\\jabby\\src\\server\\world_hook.luau"
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "name": "jecs",
+                      "className": "ModuleScript",
+                      "filePaths": [
+                        "Packages\\_Index\\alicesaidhi_jabby@0.2.3\\jecs.lua"
+                      ]
+                    },
+                    {
+                      "name": "pebble",
+                      "className": "ModuleScript",
+                      "filePaths": [
+                        "Packages\\_Index\\alicesaidhi_jabby@0.2.3\\pebble.lua"
+                      ]
+                    },
+                    {
+                      "name": "vide",
+                      "className": "ModuleScript",
+                      "filePaths": [
+                        "Packages\\_Index\\alicesaidhi_jabby@0.2.3\\vide.lua"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "name": "alicesaidhi_pebble@0.1.2",
+                  "className": "Folder",
+                  "children": [
+                    {
+                      "name": "pebble",
+                      "className": "ModuleScript",
+                      "filePaths": [
+                        "Packages\\_Index\\alicesaidhi_pebble@0.1.2\\pebble\\src\\init.luau",
+                        "Packages\\_Index\\alicesaidhi_pebble@0.1.2\\pebble\\default.project.json"
+                      ],
+                      "children": [
+                        {
+                          "name": "components",
+                          "className": "Folder",
+                          "children": [
+                            {
+                              "name": "display",
+                              "className": "Folder",
+                              "children": [
+                                {
+                                  "name": "accordion",
+                                  "className": "ModuleScript",
+                                  "filePaths": [
+                                    "Packages\\_Index\\alicesaidhi_pebble@0.1.2\\pebble\\src\\components\\display\\accordion.luau"
+                                  ]
+                                },
+                                {
+                                  "name": "background",
+                                  "className": "ModuleScript",
+                                  "filePaths": [
+                                    "Packages\\_Index\\alicesaidhi_pebble@0.1.2\\pebble\\src\\components\\display\\background.luau"
+                                  ]
+                                },
+                                {
+                                  "name": "checkbox",
+                                  "className": "ModuleScript",
+                                  "filePaths": [
+                                    "Packages\\_Index\\alicesaidhi_pebble@0.1.2\\pebble\\src\\components\\display\\checkbox.luau"
+                                  ]
+                                },
+                                {
+                                  "name": "divider",
+                                  "className": "ModuleScript",
+                                  "filePaths": [
+                                    "Packages\\_Index\\alicesaidhi_pebble@0.1.2\\pebble\\src\\components\\display\\divider.luau"
+                                  ]
+                                },
+                                {
+                                  "name": "pages",
+                                  "className": "ModuleScript",
+                                  "filePaths": [
+                                    "Packages\\_Index\\alicesaidhi_pebble@0.1.2\\pebble\\src\\components\\display\\pages.luau"
+                                  ]
+                                },
+                                {
+                                  "name": "pane",
+                                  "className": "ModuleScript",
+                                  "filePaths": [
+                                    "Packages\\_Index\\alicesaidhi_pebble@0.1.2\\pebble\\src\\components\\display\\pane.luau"
+                                  ]
+                                },
+                                {
+                                  "name": "resizeable_bar",
+                                  "className": "ModuleScript",
+                                  "filePaths": [
+                                    "Packages\\_Index\\alicesaidhi_pebble@0.1.2\\pebble\\src\\components\\display\\resizeable_bar.luau"
+                                  ]
+                                },
+                                {
+                                  "name": "scroll_frame",
+                                  "className": "ModuleScript",
+                                  "filePaths": [
+                                    "Packages\\_Index\\alicesaidhi_pebble@0.1.2\\pebble\\src\\components\\display\\scroll_frame.luau"
+                                  ]
+                                },
+                                {
+                                  "name": "snapping",
+                                  "className": "ModuleScript",
+                                  "filePaths": [
+                                    "Packages\\_Index\\alicesaidhi_pebble@0.1.2\\pebble\\src\\components\\display\\snapping.luau"
+                                  ]
+                                },
+                                {
+                                  "name": "tablesheet",
+                                  "className": "ModuleScript",
+                                  "filePaths": [
+                                    "Packages\\_Index\\alicesaidhi_pebble@0.1.2\\pebble\\src\\components\\display\\tablesheet.luau"
+                                  ]
+                                },
+                                {
+                                  "name": "typography",
+                                  "className": "ModuleScript",
+                                  "filePaths": [
+                                    "Packages\\_Index\\alicesaidhi_pebble@0.1.2\\pebble\\src\\components\\display\\typography.luau"
+                                  ]
+                                },
+                                {
+                                  "name": "widget",
+                                  "className": "ModuleScript",
+                                  "filePaths": [
+                                    "Packages\\_Index\\alicesaidhi_pebble@0.1.2\\pebble\\src\\components\\display\\widget\\init.luau"
+                                  ],
+                                  "children": [
+                                    {
+                                      "name": "borders",
+                                      "className": "ModuleScript",
+                                      "filePaths": [
+                                        "Packages\\_Index\\alicesaidhi_pebble@0.1.2\\pebble\\src\\components\\display\\widget\\borders.luau"
+                                      ]
+                                    },
+                                    {
+                                      "name": "topbar",
+                                      "className": "ModuleScript",
+                                      "filePaths": [
+                                        "Packages\\_Index\\alicesaidhi_pebble@0.1.2\\pebble\\src\\components\\display\\widget\\topbar.luau"
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "name": "graph",
+                              "className": "Folder",
+                              "children": [
+                                {
+                                  "name": "bargraph",
+                                  "className": "ModuleScript",
+                                  "filePaths": [
+                                    "Packages\\_Index\\alicesaidhi_pebble@0.1.2\\pebble\\src\\components\\graph\\bargraph.luau"
+                                  ]
+                                },
+                                {
+                                  "name": "graph",
+                                  "className": "ModuleScript",
+                                  "filePaths": [
+                                    "Packages\\_Index\\alicesaidhi_pebble@0.1.2\\pebble\\src\\components\\graph\\graph.luau"
+                                  ]
+                                },
+                                {
+                                  "name": "linegraph",
+                                  "className": "ModuleScript",
+                                  "filePaths": [
+                                    "Packages\\_Index\\alicesaidhi_pebble@0.1.2\\pebble\\src\\components\\graph\\linegraph.luau"
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "name": "interactable",
+                              "className": "Folder",
+                              "children": [
+                                {
+                                  "name": "button",
+                                  "className": "ModuleScript",
+                                  "filePaths": [
+                                    "Packages\\_Index\\alicesaidhi_pebble@0.1.2\\pebble\\src\\components\\interactable\\button.luau"
+                                  ]
+                                },
+                                {
+                                  "name": "select",
+                                  "className": "ModuleScript",
+                                  "filePaths": [
+                                    "Packages\\_Index\\alicesaidhi_pebble@0.1.2\\pebble\\src\\components\\interactable\\select.luau"
+                                  ]
+                                },
+                                {
+                                  "name": "textfield",
+                                  "className": "ModuleScript",
+                                  "filePaths": [
+                                    "Packages\\_Index\\alicesaidhi_pebble@0.1.2\\pebble\\src\\components\\interactable\\textfield.luau"
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "name": "util",
+                              "className": "Folder",
+                              "children": [
+                                {
+                                  "name": "container",
+                                  "className": "ModuleScript",
+                                  "filePaths": [
+                                    "Packages\\_Index\\alicesaidhi_pebble@0.1.2\\pebble\\src\\components\\util\\container.luau"
+                                  ]
+                                },
+                                {
+                                  "name": "gap",
+                                  "className": "ModuleScript",
+                                  "filePaths": [
+                                    "Packages\\_Index\\alicesaidhi_pebble@0.1.2\\pebble\\src\\components\\util\\gap.luau"
+                                  ]
+                                },
+                                {
+                                  "name": "list",
+                                  "className": "ModuleScript",
+                                  "filePaths": [
+                                    "Packages\\_Index\\alicesaidhi_pebble@0.1.2\\pebble\\src\\components\\util\\list.luau"
+                                  ]
+                                },
+                                {
+                                  "name": "padding",
+                                  "className": "ModuleScript",
+                                  "filePaths": [
+                                    "Packages\\_Index\\alicesaidhi_pebble@0.1.2\\pebble\\src\\components\\util\\padding.luau"
+                                  ]
+                                },
+                                {
+                                  "name": "portal",
+                                  "className": "ModuleScript",
+                                  "filePaths": [
+                                    "Packages\\_Index\\alicesaidhi_pebble@0.1.2\\pebble\\src\\components\\util\\portal.luau"
+                                  ]
+                                },
+                                {
+                                  "name": "rounded_frame",
+                                  "className": "ModuleScript",
+                                  "filePaths": [
+                                    "Packages\\_Index\\alicesaidhi_pebble@0.1.2\\pebble\\src\\components\\util\\rounded_frame.luau"
+                                  ]
+                                },
+                                {
+                                  "name": "row",
+                                  "className": "ModuleScript",
+                                  "filePaths": [
+                                    "Packages\\_Index\\alicesaidhi_pebble@0.1.2\\pebble\\src\\components\\util\\row.luau"
+                                  ]
+                                },
+                                {
+                                  "name": "shadow",
+                                  "className": "ModuleScript",
+                                  "filePaths": [
+                                    "Packages\\_Index\\alicesaidhi_pebble@0.1.2\\pebble\\src\\components\\util\\shadow.luau"
+                                  ]
+                                },
+                                {
+                                  "name": "virtualscroller",
+                                  "className": "ModuleScript",
+                                  "filePaths": [
+                                    "Packages\\_Index\\alicesaidhi_pebble@0.1.2\\pebble\\src\\components\\util\\virtualscroller.luau"
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "name": "libraries",
+                          "className": "Folder",
+                          "children": [
+                            {
+                              "name": "apcaw3",
+                              "className": "ModuleScript",
+                              "filePaths": [
+                                "Packages\\_Index\\alicesaidhi_pebble@0.1.2\\pebble\\src\\libraries\\apcaw3.luau"
+                              ]
+                            },
+                            {
+                              "name": "cascade",
+                              "className": "ModuleScript",
+                              "filePaths": [
+                                "Packages\\_Index\\alicesaidhi_pebble@0.1.2\\pebble\\src\\libraries\\cascade.luau"
+                              ]
+                            },
+                            {
+                              "name": "context",
+                              "className": "ModuleScript",
+                              "filePaths": [
+                                "Packages\\_Index\\alicesaidhi_pebble@0.1.2\\pebble\\src\\libraries\\context.luau"
+                              ]
+                            },
+                            {
+                              "name": "delay",
+                              "className": "ModuleScript",
+                              "filePaths": [
+                                "Packages\\_Index\\alicesaidhi_pebble@0.1.2\\pebble\\src\\libraries\\delay.luau"
+                              ]
+                            },
+                            {
+                              "name": "oklab",
+                              "className": "ModuleScript",
+                              "filePaths": [
+                                "Packages\\_Index\\alicesaidhi_pebble@0.1.2\\pebble\\src\\libraries\\oklab.luau"
+                              ]
+                            },
+                            {
+                              "name": "store",
+                              "className": "ModuleScript",
+                              "filePaths": [
+                                "Packages\\_Index\\alicesaidhi_pebble@0.1.2\\pebble\\src\\libraries\\store.luau"
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "name": "util",
+                          "className": "Folder",
+                          "children": [
+                            {
+                              "name": "anim",
+                              "className": "ModuleScript",
+                              "filePaths": [
+                                "Packages\\_Index\\alicesaidhi_pebble@0.1.2\\pebble\\src\\util\\anim.luau"
+                              ]
+                            },
+                            {
+                              "name": "constants",
+                              "className": "ModuleScript",
+                              "filePaths": [
+                                "Packages\\_Index\\alicesaidhi_pebble@0.1.2\\pebble\\src\\util\\constants.luau"
+                              ]
+                            },
+                            {
+                              "name": "consume",
+                              "className": "ModuleScript",
+                              "filePaths": [
+                                "Packages\\_Index\\alicesaidhi_pebble@0.1.2\\pebble\\src\\util\\consume.luau"
+                              ]
+                            },
+                            {
+                              "name": "contrast",
+                              "className": "ModuleScript",
+                              "filePaths": [
+                                "Packages\\_Index\\alicesaidhi_pebble@0.1.2\\pebble\\src\\util\\contrast.luau"
+                              ]
+                            },
+                            {
+                              "name": "oklch",
+                              "className": "ModuleScript",
+                              "filePaths": [
+                                "Packages\\_Index\\alicesaidhi_pebble@0.1.2\\pebble\\src\\util\\oklch.luau"
+                              ]
+                            },
+                            {
+                              "name": "reduced_motion",
+                              "className": "ModuleScript",
+                              "filePaths": [
+                                "Packages\\_Index\\alicesaidhi_pebble@0.1.2\\pebble\\src\\util\\reduced_motion.luau"
+                              ]
+                            },
+                            {
+                              "name": "theme",
+                              "className": "ModuleScript",
+                              "filePaths": [
+                                "Packages\\_Index\\alicesaidhi_pebble@0.1.2\\pebble\\src\\util\\theme.luau"
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "name": "vide",
+                      "className": "ModuleScript",
+                      "filePaths": [
+                        "Packages\\_Index\\alicesaidhi_pebble@0.1.2\\vide.lua"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "name": "centau_vide@0.3.1",
+                  "className": "Folder",
+                  "children": [
+                    {
+                      "name": "vide",
+                      "className": "ModuleScript",
+                      "filePaths": [
+                        "Packages\\_Index\\centau_vide@0.3.1\\vide\\src\\init.luau",
+                        "Packages\\_Index\\centau_vide@0.3.1\\vide\\default.project.json"
+                      ],
+                      "children": [
+                        {
+                          "name": "action",
+                          "className": "ModuleScript",
+                          "filePaths": [
+                            "Packages\\_Index\\centau_vide@0.3.1\\vide\\src\\action.luau"
+                          ]
+                        },
+                        {
+                          "name": "apply",
+                          "className": "ModuleScript",
+                          "filePaths": [
+                            "Packages\\_Index\\centau_vide@0.3.1\\vide\\src\\apply.luau"
+                          ]
+                        },
+                        {
+                          "name": "batch",
+                          "className": "ModuleScript",
+                          "filePaths": [
+                            "Packages\\_Index\\centau_vide@0.3.1\\vide\\src\\batch.luau"
+                          ]
+                        },
+                        {
+                          "name": "bind",
+                          "className": "ModuleScript",
+                          "filePaths": [
+                            "Packages\\_Index\\centau_vide@0.3.1\\vide\\src\\bind.luau"
+                          ]
+                        },
+                        {
+                          "name": "changed",
+                          "className": "ModuleScript",
+                          "filePaths": [
+                            "Packages\\_Index\\centau_vide@0.3.1\\vide\\src\\changed.luau"
+                          ]
+                        },
+                        {
+                          "name": "cleanup",
+                          "className": "ModuleScript",
+                          "filePaths": [
+                            "Packages\\_Index\\centau_vide@0.3.1\\vide\\src\\cleanup.luau"
+                          ]
+                        },
+                        {
+                          "name": "context",
+                          "className": "ModuleScript",
+                          "filePaths": [
+                            "Packages\\_Index\\centau_vide@0.3.1\\vide\\src\\context.luau"
+                          ]
+                        },
+                        {
+                          "name": "create",
+                          "className": "ModuleScript",
+                          "filePaths": [
+                            "Packages\\_Index\\centau_vide@0.3.1\\vide\\src\\create.luau"
+                          ]
+                        },
+                        {
+                          "name": "defaults",
+                          "className": "ModuleScript",
+                          "filePaths": [
+                            "Packages\\_Index\\centau_vide@0.3.1\\vide\\src\\defaults.luau"
+                          ]
+                        },
+                        {
+                          "name": "derive",
+                          "className": "ModuleScript",
+                          "filePaths": [
+                            "Packages\\_Index\\centau_vide@0.3.1\\vide\\src\\derive.luau"
+                          ]
+                        },
+                        {
+                          "name": "effect",
+                          "className": "ModuleScript",
+                          "filePaths": [
+                            "Packages\\_Index\\centau_vide@0.3.1\\vide\\src\\effect.luau"
+                          ]
+                        },
+                        {
+                          "name": "flags",
+                          "className": "ModuleScript",
+                          "filePaths": [
+                            "Packages\\_Index\\centau_vide@0.3.1\\vide\\src\\flags.luau"
+                          ]
+                        },
+                        {
+                          "name": "graph",
+                          "className": "ModuleScript",
+                          "filePaths": [
+                            "Packages\\_Index\\centau_vide@0.3.1\\vide\\src\\graph.luau"
+                          ]
+                        },
+                        {
+                          "name": "maps",
+                          "className": "ModuleScript",
+                          "filePaths": [
+                            "Packages\\_Index\\centau_vide@0.3.1\\vide\\src\\maps.luau"
+                          ]
+                        },
+                        {
+                          "name": "mount",
+                          "className": "ModuleScript",
+                          "filePaths": [
+                            "Packages\\_Index\\centau_vide@0.3.1\\vide\\src\\mount.luau"
+                          ]
+                        },
+                        {
+                          "name": "read",
+                          "className": "ModuleScript",
+                          "filePaths": [
+                            "Packages\\_Index\\centau_vide@0.3.1\\vide\\src\\read.luau"
+                          ]
+                        },
+                        {
+                          "name": "root",
+                          "className": "ModuleScript",
+                          "filePaths": [
+                            "Packages\\_Index\\centau_vide@0.3.1\\vide\\src\\root.luau"
+                          ]
+                        },
+                        {
+                          "name": "show",
+                          "className": "ModuleScript",
+                          "filePaths": [
+                            "Packages\\_Index\\centau_vide@0.3.1\\vide\\src\\show.luau"
+                          ]
+                        },
+                        {
+                          "name": "source",
+                          "className": "ModuleScript",
+                          "filePaths": [
+                            "Packages\\_Index\\centau_vide@0.3.1\\vide\\src\\source.luau"
+                          ]
+                        },
+                        {
+                          "name": "spring",
+                          "className": "ModuleScript",
+                          "filePaths": [
+                            "Packages\\_Index\\centau_vide@0.3.1\\vide\\src\\spring.luau"
+                          ]
+                        },
+                        {
+                          "name": "switch",
+                          "className": "ModuleScript",
+                          "filePaths": [
+                            "Packages\\_Index\\centau_vide@0.3.1\\vide\\src\\switch.luau"
+                          ]
+                        },
+                        {
+                          "name": "throw",
+                          "className": "ModuleScript",
+                          "filePaths": [
+                            "Packages\\_Index\\centau_vide@0.3.1\\vide\\src\\throw.luau"
+                          ]
+                        },
+                        {
+                          "name": "untrack",
+                          "className": "ModuleScript",
+                          "filePaths": [
+                            "Packages\\_Index\\centau_vide@0.3.1\\vide\\src\\untrack.luau"
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "name": "evaera_promise@4.0.0",
+                  "className": "Folder",
+                  "children": [
+                    {
+                      "name": "promise",
+                      "className": "ModuleScript",
+                      "filePaths": [
+                        "Packages\\_Index\\evaera_promise@4.0.0\\promise\\lib\\init.lua",
+                        "Packages\\_Index\\evaera_promise@4.0.0\\promise\\default.project.json"
+                      ],
+                      "children": [
+                        {
+                          "name": "init.spec",
+                          "className": "ModuleScript",
+                          "filePaths": [
+                            "Packages\\_Index\\evaera_promise@4.0.0\\promise\\lib\\init.spec.lua"
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "name": "osyrisrblx_t@3.1.1",
+                  "className": "Folder",
+                  "children": [
+                    {
+                      "name": "t",
+                      "className": "ModuleScript",
+                      "filePaths": [
+                        "Packages\\_Index\\osyrisrblx_t@3.1.1\\t\\lib\\init.lua",
+                        "Packages\\_Index\\osyrisrblx_t@3.1.1\\t\\default.project.json"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "name": "paradoxum-games_lyra@0.6.0",
+                  "className": "Folder",
+                  "children": [
+                    {
+                      "name": "Promise",
+                      "className": "ModuleScript",
+                      "filePaths": [
+                        "Packages\\_Index\\paradoxum-games_lyra@0.6.0\\Promise.lua"
+                      ]
+                    },
+                    {
+                      "name": "lyra",
+                      "className": "ModuleScript",
+                      "filePaths": [
+                        "Packages\\_Index\\paradoxum-games_lyra@0.6.0\\lyra\\src\\init.luau",
+                        "Packages\\_Index\\paradoxum-games_lyra@0.6.0\\lyra\\default.project.json"
+                      ],
+                      "children": [
+                        {
+                          "name": "Constants",
+                          "className": "ModuleScript",
+                          "filePaths": [
+                            "Packages\\_Index\\paradoxum-games_lyra@0.6.0\\lyra\\src\\Constants.luau"
+                          ]
+                        },
+                        {
+                          "name": "Files",
+                          "className": "ModuleScript",
+                          "filePaths": [
+                            "Packages\\_Index\\paradoxum-games_lyra@0.6.0\\lyra\\src\\Files.luau"
+                          ]
+                        },
+                        {
+                          "name": "JsonPatch",
+                          "className": "ModuleScript",
+                          "filePaths": [
+                            "Packages\\_Index\\paradoxum-games_lyra@0.6.0\\lyra\\src\\JsonPatch.luau"
+                          ]
+                        },
+                        {
+                          "name": "Locks",
+                          "className": "ModuleScript",
+                          "filePaths": [
+                            "Packages\\_Index\\paradoxum-games_lyra@0.6.0\\lyra\\src\\Locks.luau"
+                          ]
+                        },
+                        {
+                          "name": "Log",
+                          "className": "ModuleScript",
+                          "filePaths": [
+                            "Packages\\_Index\\paradoxum-games_lyra@0.6.0\\lyra\\src\\Log.luau"
+                          ]
+                        },
+                        {
+                          "name": "Migrations",
+                          "className": "ModuleScript",
+                          "filePaths": [
+                            "Packages\\_Index\\paradoxum-games_lyra@0.6.0\\lyra\\src\\Migrations.luau"
+                          ]
+                        },
+                        {
+                          "name": "MockDataStoreService",
+                          "className": "ModuleScript",
+                          "filePaths": [
+                            "Packages\\_Index\\paradoxum-games_lyra@0.6.0\\lyra\\src\\MockDataStoreService.luau"
+                          ]
+                        },
+                        {
+                          "name": "MockMemoryStoreService",
+                          "className": "ModuleScript",
+                          "filePaths": [
+                            "Packages\\_Index\\paradoxum-games_lyra@0.6.0\\lyra\\src\\MockMemoryStoreService.luau"
+                          ]
+                        },
+                        {
+                          "name": "PlayerStore",
+                          "className": "ModuleScript",
+                          "filePaths": [
+                            "Packages\\_Index\\paradoxum-games_lyra@0.6.0\\lyra\\src\\PlayerStore.luau"
+                          ]
+                        },
+                        {
+                          "name": "Promise",
+                          "className": "ModuleScript",
+                          "filePaths": [
+                            "Packages\\_Index\\paradoxum-games_lyra@0.6.0\\lyra\\src\\Promise.luau"
+                          ]
+                        },
+                        {
+                          "name": "PromiseQueue",
+                          "className": "ModuleScript",
+                          "filePaths": [
+                            "Packages\\_Index\\paradoxum-games_lyra@0.6.0\\lyra\\src\\PromiseQueue.luau"
+                          ]
+                        },
+                        {
+                          "name": "Session",
+                          "className": "ModuleScript",
+                          "filePaths": [
+                            "Packages\\_Index\\paradoxum-games_lyra@0.6.0\\lyra\\src\\Session.luau"
+                          ]
+                        },
+                        {
+                          "name": "Store",
+                          "className": "ModuleScript",
+                          "filePaths": [
+                            "Packages\\_Index\\paradoxum-games_lyra@0.6.0\\lyra\\src\\Store.luau"
+                          ]
+                        },
+                        {
+                          "name": "Tables",
+                          "className": "ModuleScript",
+                          "filePaths": [
+                            "Packages\\_Index\\paradoxum-games_lyra@0.6.0\\lyra\\src\\Tables.luau"
+                          ]
+                        },
+                        {
+                          "name": "Transactions",
+                          "className": "ModuleScript",
+                          "filePaths": [
+                            "Packages\\_Index\\paradoxum-games_lyra@0.6.0\\lyra\\src\\Transactions.luau"
+                          ]
+                        },
+                        {
+                          "name": "Types",
+                          "className": "ModuleScript",
+                          "filePaths": [
+                            "Packages\\_Index\\paradoxum-games_lyra@0.6.0\\lyra\\src\\Types.luau"
+                          ]
+                        },
+                        {
+                          "name": "dataStoreRetry",
+                          "className": "ModuleScript",
+                          "filePaths": [
+                            "Packages\\_Index\\paradoxum-games_lyra@0.6.0\\lyra\\src\\dataStoreRetry.luau"
+                          ]
+                        },
+                        {
+                          "name": "hashMapRetry",
+                          "className": "ModuleScript",
+                          "filePaths": [
+                            "Packages\\_Index\\paradoxum-games_lyra@0.6.0\\lyra\\src\\hashMapRetry.luau"
+                          ]
+                        },
+                        {
+                          "name": "noYield",
+                          "className": "ModuleScript",
+                          "filePaths": [
+                            "Packages\\_Index\\paradoxum-games_lyra@0.6.0\\lyra\\src\\noYield.luau"
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "name": "t",
+                      "className": "ModuleScript",
+                      "filePaths": [
+                        "Packages\\_Index\\paradoxum-games_lyra@0.6.0\\t.lua"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "name": "pepeeltoro41_replecs@0.2.4",
+                  "className": "Folder",
+                  "children": [
+                    {
+                      "name": "jecs",
+                      "className": "ModuleScript",
+                      "filePaths": [
+                        "Packages\\_Index\\pepeeltoro41_replecs@0.2.4\\jecs.lua"
+                      ]
+                    },
+                    {
+                      "name": "replecs",
+                      "className": "ModuleScript",
+                      "filePaths": [
+                        "Packages\\_Index\\pepeeltoro41_replecs@0.2.4\\replecs\\src\\init.luau",
+                        "Packages\\_Index\\pepeeltoro41_replecs@0.2.4\\replecs\\default.project.json"
+                      ],
+                      "children": [
+                        {
+                          "name": "client",
+                          "className": "ModuleScript",
+                          "filePaths": [
+                            "Packages\\_Index\\pepeeltoro41_replecs@0.2.4\\replecs\\src\\client.luau"
+                          ]
+                        },
+                        {
+                          "name": "common",
+                          "className": "ModuleScript",
+                          "filePaths": [
+                            "Packages\\_Index\\pepeeltoro41_replecs@0.2.4\\replecs\\src\\common.luau"
+                          ]
+                        },
+                        {
+                          "name": "customid",
+                          "className": "ModuleScript",
+                          "filePaths": [
+                            "Packages\\_Index\\pepeeltoro41_replecs@0.2.4\\replecs\\src\\customid.luau"
+                          ]
+                        },
+                        {
+                          "name": "masking",
+                          "className": "ModuleScript",
+                          "filePaths": [
+                            "Packages\\_Index\\pepeeltoro41_replecs@0.2.4\\replecs\\src\\masking\\init.luau"
+                          ],
+                          "children": [
+                            {
+                              "name": "mask_generator",
+                              "className": "ModuleScript",
+                              "filePaths": [
+                                "Packages\\_Index\\pepeeltoro41_replecs@0.2.4\\replecs\\src\\masking\\mask_generator.luau"
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "name": "server",
+                          "className": "ModuleScript",
+                          "filePaths": [
+                            "Packages\\_Index\\pepeeltoro41_replecs@0.2.4\\replecs\\src\\server.luau"
+                          ]
+                        },
+                        {
+                          "name": "types",
+                          "className": "ModuleScript",
+                          "filePaths": [
+                            "Packages\\_Index\\pepeeltoro41_replecs@0.2.4\\replecs\\src\\types.luau"
+                          ]
+                        },
+                        {
+                          "name": "utils",
+                          "className": "ModuleScript",
+                          "filePaths": [
+                            "Packages\\_Index\\pepeeltoro41_replecs@0.2.4\\replecs\\src\\utils.luau"
+                          ]
+                        },
+                        {
+                          "name": "ver",
+                          "className": "ModuleScript",
+                          "filePaths": [
+                            "Packages\\_Index\\pepeeltoro41_replecs@0.2.4\\replecs\\src\\ver.luau"
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "name": "ukendio_jecs@0.6.1",
+                  "className": "Folder",
+                  "children": [
+                    {
+                      "name": "jecs",
+                      "className": "ModuleScript",
+                      "filePaths": [
+                        "Packages\\_Index\\ukendio_jecs@0.6.1\\jecs\\jecs.luau",
+                        "Packages\\_Index\\ukendio_jecs@0.6.1\\jecs\\default.project.json"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "name": "ukendio_jecs@0.9.0",
+                  "className": "Folder",
+                  "children": [
+                    {
+                      "name": "jecs",
+                      "className": "ModuleScript",
+                      "filePaths": [
+                        "Packages\\_Index\\ukendio_jecs@0.9.0\\jecs\\jecs.luau",
+                        "Packages\\_Index\\ukendio_jecs@0.9.0\\jecs\\default.project.json"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "jabby",
+              "className": "ModuleScript",
+              "filePaths": [
+                "Packages\\jabby.lua"
+              ]
+            },
+            {
+              "name": "jecs",
+              "className": "ModuleScript",
+              "filePaths": [
+                "Packages\\jecs.lua"
+              ]
+            },
+            {
+              "name": "lyra",
+              "className": "ModuleScript",
+              "filePaths": [
+                "Packages\\lyra.lua"
+              ]
+            },
+            {
+              "name": "replecs",
+              "className": "ModuleScript",
+              "filePaths": [
+                "Packages\\replecs.lua"
+              ]
+            },
+            {
+              "name": "t",
+              "className": "ModuleScript",
+              "filePaths": [
+                "Packages\\t.lua"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Shared",
+          "className": "Folder",
+          "children": [
+            {
+              "name": "controller",
+              "className": "Folder",
+              "children": [
+                {
+                  "name": "animator",
+                  "className": "ModuleScript",
+                  "filePaths": [
+                    "src/shared\\controller\\animator.luau"
+                  ]
+                },
+                {
+                  "name": "event-dispatch",
+                  "className": "ModuleScript",
+                  "filePaths": [
+                    "src/shared\\controller\\event-dispatch.luau"
+                  ]
+                },
+                {
+                  "name": "input",
+                  "className": "ModuleScript",
+                  "filePaths": [
+                    "src/shared\\controller\\input.luau"
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "core",
+              "className": "Folder",
+              "children": [
+                {
+                  "name": "common",
+                  "className": "Folder",
+                  "children": [
+                    {
+                      "name": "component",
+                      "className": "ModuleScript",
+                      "filePaths": [
+                        "src/shared\\core\\common\\component.luau"
+                      ]
+                    },
+                    {
+                      "name": "types",
+                      "className": "ModuleScript",
+                      "filePaths": [
+                        "src/shared\\core\\common\\types.luau"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "name": "system",
+                  "className": "Folder",
+                  "children": [
+                    {
+                      "name": "input-listen",
+                      "className": "ModuleScript",
+                      "filePaths": [
+                        "src/shared\\core\\system\\input-listen.luau"
+                      ]
+                    },
+                    {
+                      "name": "hitbox",
+                      "className": "ModuleScript",
+                      "filePaths": [
+                        "src/shared\\core\\system\\hitbox.luau"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "name": "utility",
+                  "className": "Folder",
+                  "children": [
+                    {
+                      "name": "collect",
+                      "className": "ModuleScript",
+                      "filePaths": [
+                        "src/shared\\core\\utility\\collect.luau"
+                      ]
+                    },
+                    {
+                      "name": "has-ownership",
+                      "className": "ModuleScript",
+                      "filePaths": [
+                        "src/shared\\core\\utility\\has-ownership.luau"
+                      ]
+                    },
+                    {
+                      "name": "interval",
+                      "className": "ModuleScript",
+                      "filePaths": [
+                        "src/shared\\core\\utility\\interval.luau"
+                      ]
+                    },
+                    {
+                      "name": "observers",
+                      "className": "ModuleScript",
+                      "filePaths": [
+                        "src/shared\\core\\utility\\observers.luau"
+                      ]
+                    },
+                    {
+                      "name": "query-changed",
+                      "className": "ModuleScript",
+                      "filePaths": [
+                        "src/shared\\core\\utility\\query-changed.luau"
+                      ]
+                    },
+                    {
+                      "name": "query-first",
+                      "className": "ModuleScript",
+                      "filePaths": [
+                        "src/shared\\core\\utility\\query-first.luau"
+                      ]
+                    },
+                    {
+                      "name": "query-random",
+                      "className": "ModuleScript",
+                      "filePaths": [
+                        "src/shared\\core\\utility\\query-random.luau"
+                      ]
+                    },
+                    {
+                      "name": "ref",
+                      "className": "ModuleScript",
+                      "filePaths": [
+                        "src/shared\\core\\utility\\ref.lua"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "ServerScriptService",
+      "className": "ServerScriptService",
+      "children": [
+        {
+          "name": "Server",
+          "className": "Script",
+          "filePaths": [
+            "src/server\\init.server.luau"
+          ],
+          "children": [
+            {
+              "name": "controller",
+              "className": "Folder",
+              "children": [
+                {
+                  "name": "combat",
+                  "className": "ModuleScript",
+                  "filePaths": [
+                    "src/server\\controller\\combat.luau"
+                  ]
+                },
+                {
+                  "name": "player-store",
+                  "className": "ModuleScript",
+                  "filePaths": [
+                    "src/server\\controller\\player-store.luau"
+                  ]
+                },
+                {
+                  "name": "replicator",
+                  "className": "ModuleScript",
+                  "filePaths": [
+                    "src/server\\controller\\replicator.luau"
+                  ]
+                },
+                {
+                  "name": "scheduler",
+                  "className": "ModuleScript",
+                  "filePaths": [
+                    "src/server\\controller\\scheduler.luau"
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "core",
+              "className": "Folder",
+              "children": [
+                {
+                  "name": "common",
+                  "className": "Folder",
+                  "children": [
+                    {
+                      "name": "component",
+                      "className": "ModuleScript",
+                      "filePaths": [
+                        "src/server\\core\\common\\component.luau"
+                      ]
+                    },
+                    {
+                      "name": "respawn-times",
+                      "className": "ModuleScript",
+                      "filePaths": [
+                        "src/server\\core\\common\\respawn-times.luau"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "name": "system",
+                  "className": "Folder",
+                  "children": [
+                    {
+                      "name": "ability-fire",
+                      "className": "ModuleScript",
+                      "filePaths": [
+                        "src/server\\core\\system\\ability-fire.luau"
+                      ]
+                    },
+                    {
+                      "name": "ability-cooldown",
+                      "className": "ModuleScript",
+                      "filePaths": [
+                        "src/server\\core\\system\\ability-cooldown.luau"
+                      ]
+                    },
+                    {
+                      "name": "character-added",
+                      "className": "ModuleScript",
+                      "filePaths": [
+                        "src/server\\core\\system\\character-added.luau"
+                      ]
+                    },
+                    {
+                      "name": "animator-create",
+                      "className": "ModuleScript",
+                      "filePaths": [
+                        "src/server\\core\\system\\animator-create.luau"
+                      ]
+                    },
+                    {
+                      "name": "create-moveset",
+                      "className": "ModuleScript",
+                      "filePaths": [
+                        "src/server\\core\\system\\create-moveset.luau"
+                      ]
+                    },
+                    {
+                      "name": "data-update",
+                      "className": "ModuleScript",
+                      "filePaths": [
+                        "src/server\\core\\system\\data-update.luau"
+                      ]
+                    },
+                    {
+                      "name": "health",
+                      "className": "ModuleScript",
+                      "filePaths": [
+                        "src/server\\core\\system\\health.luau"
+                      ]
+                    },
+                    {
+                      "name": "health-regen",
+                      "className": "ModuleScript",
+                      "filePaths": [
+                        "src/server\\core\\system\\health-regen.luau"
+                      ]
+                    },
+                    {
+                      "name": "network-send",
+                      "className": "ModuleScript",
+                      "filePaths": [
+                        "src/server\\core\\system\\network-send.luau"
+                      ]
+                    },
+                    {
+                      "name": "player-added",
+                      "className": "ModuleScript",
+                      "filePaths": [
+                        "src/server\\core\\system\\player-added.luau"
+                      ]
+                    },
+                    {
+                      "name": "respawn",
+                      "className": "ModuleScript",
+                      "filePaths": [
+                        "src/server\\core\\system\\respawn.luau"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "StarterPlayer",
+      "className": "StarterPlayer",
+      "children": [
+        {
+          "name": "StarterPlayerScripts",
+          "className": "StarterPlayerScripts",
+          "children": [
+            {
+              "name": "Client",
+              "className": "LocalScript",
+              "filePaths": [
+                "src/client\\init.client.luau"
+              ],
+              "children": [
+                {
+                  "name": "controller",
+                  "className": "Folder",
+                  "children": [
+                    {
+                      "name": "combat",
+                      "className": "ModuleScript",
+                      "filePaths": [
+                        "src/client\\controller\\combat.luau"
+                      ]
+                    },
+                    {
+                      "name": "replicator",
+                      "className": "ModuleScript",
+                      "filePaths": [
+                        "src/client\\controller\\replicator.luau"
+                      ]
+                    },
+                    {
+                      "name": "scheduler",
+                      "className": "ModuleScript",
+                      "filePaths": [
+                        "src/client\\controller\\scheduler.luau"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "name": "core",
+                  "className": "Folder",
+                  "children": [
+                    {
+                      "name": "common",
+                      "className": "Folder",
+                      "children": [
+                        {
+                          "name": "component",
+                          "className": "ModuleScript",
+                          "filePaths": [
+                            "src/client\\core\\common\\component.luau"
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "name": "system",
+                      "className": "Folder",
+                      "children": [
+                        {
+                          "name": "ability-fire",
+                          "className": "ModuleScript",
+                          "filePaths": [
+                            "src/client\\core\\system\\ability-fire.luau"
+                          ]
+                        },
+                        {
+                          "name": "animate",
+                          "className": "ModuleScript",
+                          "filePaths": [
+                            "src/client\\core\\system\\animate.luau"
+                          ]
+                        },
+                        {
+                          "name": "input-replicate",
+                          "className": "ModuleScript",
+                          "filePaths": [
+                            "src/client\\core\\system\\input-replicate.luau"
+                          ]
+                        },
+                        {
+                          "name": "movement",
+                          "className": "ModuleScript",
+                          "filePaths": [
+                            "src/client\\core\\system\\movement.luau"
+                          ]
+                        },
+                        {
+                          "name": "network-recieve",
+                          "className": "ModuleScript",
+                          "filePaths": [
+                            "src/client\\core\\system\\network-recieve.luau"
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
